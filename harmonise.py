@@ -9,7 +9,7 @@ build = sys.argv[2]
 
 def getrsIDCol(ss):
   for column in ss.data.columns:
-   :wq if ss.data.SNPID.astype(str).str.contains('rs\d+', regex=True, na=False).any():
+    if ss.data.SNPID.astype(str).str.contains('rs\d+', regex=True, na=False).any():
       return column
   else:
     return "not found"
@@ -65,7 +65,7 @@ def parsefiles(sumstats_path):
   output_path = sumstats_path.split(".")[0]
   stem = re.search(pattern, sumstats_path).group(0)
   output_path = output_path.replace("sumstats/", "sumstats/ldsc/")
-  
+  output_path = output_path + + "_ldsc.txt.gz"
 
   ref_rsid_vcf_19 = "/well/ckb/users/aey472/projects/pgs_subtype/data/GCF_000001405.25.gz"
   ref_rsid_vcf_38 = "/well/ckb/users/aey472/projects/pgs_subtype/data/GCF_000001405.40.gz"
