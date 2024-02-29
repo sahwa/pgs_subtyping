@@ -4,12 +4,9 @@ import sys
 import gzip
 import re
 
-sumstats_path = sys.argv[1]
-build = sys.argv[2]
-
 def getrsIDCol(ss):
   for column in ss.data.columns:
-    if ss.data.SNPID.astype(str).str.contains('rs\d+', regex=True, na=False).any():
+    if ss.data[column].astype(str).str.contains('rs\d+', regex=True, na=False).any():
       return column
   else:
     return "not found"
@@ -33,6 +30,7 @@ def getbuild(ss, given_build):
     if given_build == "38":
       return "38"
   else:
+    print("No build found. Automatically detecting using HapMap SNPS")
     ss.infer_build()
     return ss.meta['gwaslab']['genome_build']
 
@@ -61,11 +59,14 @@ def writefile(ss, outpath):
   ss.to_csv(outpath, sep="\t", index=False, compression="gzip")
 
 
-def parsefiles(sumstats_path):
+def main(args):
+
+  sumstats_path = args[1]
+  build = args[2]
+
   output_path = sumstats_path.split(".")[0]
-  stem = re.search(pattern, sumstats_path).group(0)
   output_path = output_path.replace("sumstats/", "sumstats/ldsc/")
-  output_path = output_path + + "_ldsc.txt.gz"
+  output_path = output_path + "_ldsc.txt.gz"
 
   ref_rsid_vcf_19 = "/well/ckb/users/aey472/projects/pgs_subtype/data/GCF_000001405.25.gz"
   ref_rsid_vcf_38 = "/well/ckb/users/aey472/projects/pgs_subtype/data/GCF_000001405.40.gz"
@@ -74,8 +75,8 @@ def parsefiles(sumstats_path):
 
   # Use the first command line argument as the input to gl.Sumstats
   ss = gl.Sumstats(sumstats_path, fmt="auto", sep=sep)
-  #ss.basic_check()
-  #ss.harmonize()
+  ss.basic_check()
+  ss.harmonize()
 
   ## something here we need to fix the NEA and EA alleles so that we can use them for the adding rsID
 
@@ -95,10 +96,10 @@ def parsefiles(sumstats_path):
 
     ## doing so depends on what the build of the data is
     if build == '19':
-        ss.assign_rsid(ref_rsid_vcf = ref_rsid_vcf_19, chr_dict = gl.get_number_to_NC(build="19"), ncores=4)
+        ss.assign_rsid(ref_rsid_vcf = ref_rsid_vcf_19, chr_dict = gl.get_number_to_NC(build="19"), n_cores=4)
         ss.data = ss.data.rename(columns={'rsID': 'SNP'})
     elif build == "38":
-        ss.assign_rsid(ref_rsid_vcf = ref_rsid_vcf_38, chr_dict = gl.get_number_to_NC(build="38"), ncores=4)
+        ss.assign_rsid(ref_rsid_vcf = ref_rsid_vcf_38, chr_dict = gl.get_number_to_NC(build="38"), n_cores=4)
         ss.data = ss.data.rename(columns={'rsID': 'SNP'})
     else:
         sys.exit("Build detected as neither 19 nor 38")
@@ -121,5 +122,6 @@ def parsefiles(sumstats_path):
   print("Writing output files")
   writefile(ss, output_path)
   print("Completed!")
-    
-parsefiles(sumstats_path)
+
+if __name__ == "__main__":
+  main(sys.argv)

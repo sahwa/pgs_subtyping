@@ -23,6 +23,7 @@ dat = fixnames(dat, "Effect_A2", "EA")
 dat = fixnames(dat, "Tested_Allele", "EA")
 dat = fixnames(dat, "hm_effect_allele", "EA")
 
+dat = fixnames(dat, "OTHER_ALLELE", "NEA")
 dat = fixnames(dat, "other_allele", "NEA")
 dat = fixnames(dat, "hm_other_allele", "NEA")
 

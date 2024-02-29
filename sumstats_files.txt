@@ -1,73 +1,73 @@
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90132314_cad_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002346_mean_platelet_volume_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90243980_smokcess_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002322_mean_corpuscular_hemoglobin_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104542_large_artery_stroke_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST004748_lung_cancer_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST008064_ckd_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90132184_t2dm_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90239652_hdl_EUR.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104546_cardioembolic_stroke_EAS.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90243984_drinksday_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002328_mean_corpuscular_hemoglobin_concentration_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002310_hemoglobin_concentration_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104539_stroke_EAS.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104540_ischemic_stroke_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST008062_bun_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90000618_vitD_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST006630_dbp_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002227_2hGlu_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90132223_ra_EUR.tsb.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90243972_agesmok_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104547_large_artery_stroke_EAS.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST010042_asthma_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90058032_depression_EAS.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002243_HbA1c_EAS.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002244_HbA1c_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90239676_tc_EUR.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST006624_sbp_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST006900_whr_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90243968_smokinit_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90128471_schizophrenia_EAS.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002334_mean_corpuscular_volume_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST009597_ms_EUR.meta.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002316_lymphocyte_count_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST006414_af_EUR.tbl.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90243976_cigday_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002237_FI_EAS.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST003156_sle_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002374_white_blood_cell_count_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST009004_bmi_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104541_cardioembolic_stroke_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002357_platelet_count_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104539_stroke_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST008059_egfr_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002351_neutrophil_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST007556_asd_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002340_monocyte_count_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST008999_whradjbmi_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST009324_parkinson_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002238_FI_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90128471_schizophrenia_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002409_childbmi_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST012465_bipolar_disorder_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90239664_tg_EUR.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002292_basophil_count_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90014023_t1dm_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90239658_ldl_EUR.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104548_small_vessel_stroke_EAS.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST011365_mi_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104545_ischemic_stroke_EAS.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90027164_als_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002231_FG_EAS.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST007342_depression_EUR.txt.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90018732_dbp_EAS.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002363_red_blood_cell_count_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002369_red_cell_distribution_width_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90018752_sbp_EAS.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002226_2hGlu_EAS.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002304_hematocrit_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104543_small_vessel_stroke_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002232_FG_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90027158_alzheimer_EUR.tsv.gz
-/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002298_eosinophil_counts_EUR.tsv.gz
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90132314_cad_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002346_mean_platelet_volume_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90243980_smokcess_EUR.txt.gz	38
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002322_mean_corpuscular_hemoglobin_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104542_large_artery_stroke_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST004748_lung_cancer_EUR.tsv.gz	NA
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST008064_ckd_EUR.txt.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90132184_t2dm_EUR.txt.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90239652_hdl_EUR.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104546_cardioembolic_stroke_EAS.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90243984_drinksday_EUR.txt.gz	38
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002328_mean_corpuscular_hemoglobin_concentration_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002310_hemoglobin_concentration_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104539_stroke_EAS.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104540_ischemic_stroke_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST008062_bun_EUR.txt.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90000618_vitD_EUR.tsv.gz	38
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST006630_dbp_EUR.txt.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002227_2hGlu_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90132223_ra_EUR.tsb.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90243972_agesmok_EUR.txt.gz	38
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104547_large_artery_stroke_EAS.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST010042_asthma_EUR.txt.gz	NA
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90058032_depression_EAS.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002243_HbA1c_EAS.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002244_HbA1c_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90239676_tc_EUR.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST006624_sbp_EUR.txt.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST006900_whr_EUR.txt.gz	NA
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90243968_smokinit_EUR.txt.gz	38
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90128471_schizophrenia_EAS.tsv.gz	NA
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002334_mean_corpuscular_volume_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST009597_ms_EUR.meta.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002316_lymphocyte_count_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST006414_af_EUR.tbl.gz	NA
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90243976_cigday_EUR.txt.gz	38
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002237_FI_EAS.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST003156_sle_EUR.tsv.gz	NA
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002374_white_blood_cell_count_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST009004_bmi_EUR.txt.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104541_cardioembolic_stroke_EUR.tsv.gz	NA
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002357_platelet_count_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104539_stroke_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST008059_egfr_EUR.txt.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002351_neutrophil_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST007556_asd_EUR.txt.gz	NA
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002340_monocyte_count_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST008999_whradjbmi_EUR.txt.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST009324_parkinson_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002238_FI_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90128471_schizophrenia_EUR.tsv.gz	NA
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002409_childbmi_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST012465_bipolar_disorder_EUR.tsv.gz	NA
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90239664_tg_EUR.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002292_basophil_count_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90014023_t1dm_EUR.tsv.gz	38
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90239658_ldl_EUR.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104548_small_vessel_stroke_EAS.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST011365_mi_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104545_ischemic_stroke_EAS.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90027164_als_EUR.tsv.gz	38
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002231_FG_EAS.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST007342_depression_EUR.txt.gz	NA
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90018732_dbp_EAS.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002363_red_blood_cell_count_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002369_red_cell_distribution_width_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90018752_sbp_EAS.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002226_2hGlu_EAS.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002304_hematocrit_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90104543_small_vessel_stroke_EUR.tsv.gz	NA
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002232_FG_EUR.tsv.gz	37
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90027158_alzheimer_EUR.tsv.gz	38
+/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/GCST90002298_eosinophil_counts_EUR.tsv.gz	37

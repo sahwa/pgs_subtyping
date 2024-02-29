@@ -8,8 +8,8 @@
 #SBATCH -a 1-73
 
 line=$(sed -n ${SLURM_ARRAY_TASK_ID}'{p;q}' sumstats_files.txt)
-sumstats=$(echo $line | cut -f1)
-build=$(echo $line | cut -f2)
+sumstats=$(echo $line | cut -f1 -d' ')
+build=$(echo $line | cut -f2 -d' ')
 
 Rscript fixcolnames.R ${sumstats}
 
