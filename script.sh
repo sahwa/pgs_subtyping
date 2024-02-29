@@ -11,6 +11,6 @@ line=$(sed -n ${SLURM_ARRAY_TASK_ID}'{p;q}' sumstats_files.txt)
 sumstats=$(echo $line | cut -f1 -d' ')
 build=$(echo $line | cut -f2 -d' ')
 
-Rscript fixcolnames.R ${sumstats}
+#Rscript fixcolnames.R ${sumstats}
 
-#python harmonise.py ${sumstats} ${build}
+python harmonise.py ${sumstats} ${build}

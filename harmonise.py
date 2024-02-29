@@ -1,16 +1,47 @@
 import gwaslab as gl
 import pandas as pd
+import numpy as np
+import os
 import sys
 import gzip
 import re
 
-def getrsIDCol(ss):
-  for column in ss.data.columns:
-    if ss.data[column].astype(str).str.contains('rs\d+', regex=True, na=False).any():
-      return column
-  else:
-    return "not found"
+def check_empty_columns(df, threshold=0.75, sample_size=1000000):
+  total_rows = len(df)
+  sample_size = min(sample_size, total_rows)  # Ensure sample size is not larger than the total number of rows
+    
+  random_indices = np.random.choice(total_rows, size=sample_size, replace=False)
+  sampled_df = df.iloc[random_indices]
+    
+  for column in sampled_df.columns:
+    missing_percentage = sampled_df[column].isnull().mean()
+    if missing_percentage >= threshold:
+      return False  
+    
+  return True
 
+def checkrsid(df):
+  required_match_percentage = 0.8
+  subset = df.SNP.head(1000).astype(str)
+  matches = subset.str.contains('rs\d+', regex=True, na=False).sum()
+
+  ## check rsid columns
+  if (matches / len(subset)) >= required_match_percentage:
+    print("Found rsID SNPs in SNP column")
+    return True
+  else:
+    print("SNP column doesn't seem to contain rsID. Exiting")
+    return False
+
+def getrsIDCol(ss):
+    required_match_percentage = 0.75  # 75% of the rows must match the pattern
+    for column in ss.data.columns:
+        subset = ss.data[column].head(1000).astype(str)
+        matches = subset.str.contains('rs\d+', regex=True, na=False).sum()
+        if (matches / len(subset)) >= required_match_percentage:
+            return column
+    else:
+        return "not found"
 
 def guess_separator(filepath):
   with gzip.open(filepath, 'rt') as f: 
@@ -68,6 +99,21 @@ def main(args):
   output_path = output_path.replace("sumstats/", "sumstats/ldsc/")
   output_path = output_path + "_ldsc.txt.gz"
 
+  #### run some checks first we don't want to repeat if the file already exists
+
+  if os.path.exists(output_path):
+    print("Output file exists, checking contents")
+    ldscfile = pd.read_csv(output_path, sep="\t", compression='gzip')
+    
+    ecols = check_empty_columns(ldscfile)
+    checkrsidcols = checkrsid(ldscfile)
+
+    if not ecols or not checkrsidcols:
+      print("Something wrong with the output file.. Trying again")
+    else:
+      print("Input files seem OK. Exiting program")
+      exit()
+  
   ref_rsid_vcf_19 = "/well/ckb/users/aey472/projects/pgs_subtype/data/GCF_000001405.25.gz"
   ref_rsid_vcf_38 = "/well/ckb/users/aey472/projects/pgs_subtype/data/GCF_000001405.40.gz"
 
