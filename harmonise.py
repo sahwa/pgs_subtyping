@@ -34,14 +34,17 @@ def checkrsid(df):
     return False
 
 def getrsIDCol(ss):
-    required_match_percentage = 0.75  # 75% of the rows must match the pattern
-    for column in ss.data.columns:
-        subset = ss.data[column].head(1000).astype(str)
-        matches = subset.str.contains('rs\d+', regex=True, na=False).sum()
-        if (matches / len(subset)) >= required_match_percentage:
-            return column
-    else:
-        return "not found"
+  required_match_percentage = 0.75  # 75% of the rows must match the pattern
+  for column in ss.data.columns:
+    subset = ss.data[column].head(1000).astype(str)
+        
+    if subset.isnull().all() or len(subset) == 0:
+      continue  # Skip this column if it has no valid data
+        
+    matches = subset.str.contains('rs\d+', regex=True, na=False).sum()
+    if matches > 0 and (matches / len(subset)) >= required_match_percentage:
+      return column
+    return "not found"
 
 def guess_separator(filepath):
   with gzip.open(filepath, 'rt') as f: 
