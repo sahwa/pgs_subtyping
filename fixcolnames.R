@@ -17,14 +17,19 @@ fixnames = function(dat, old, new) {
 }
 
 ## effect and non-effect alleles ##
+dat = fixnames(dat, "ALT", "EA")
+dat = fixnames(dat, "A1", "EA")
 dat = fixnames(dat, "EFFECT_ALLELE", "EA")
 dat = fixnames(dat, "effect_allele", "EA")
 dat = fixnames(dat, "Effect_A2", "EA")
 dat = fixnames(dat, "Tested_Allele", "EA")
 dat = fixnames(dat, "hm_effect_allele", "EA")
 
+dat = fixnames(dat, "A2", "NEA")
+dat = fixnames(dat, "REF", "NEA")
 dat = fixnames(dat, "OTHER_ALLELE", "NEA")
 dat = fixnames(dat, "other_allele", "NEA")
+dat = fixnames(dat, "Other_Allele", "NEA")
 dat = fixnames(dat, "hm_other_allele", "NEA")
 
 ## pos
@@ -44,6 +49,11 @@ dat = fixnames(dat, "Fixed-effects_SE", "SE")
 
 # BETA
 dat = fixnames(dat, "Fixed-effects_beta", "BETA")
+
+# Pvalue
+dat = fixnames(dat, "pvalue", "P")
+dat = fixnames(dat, "pvalue_GC", "P")
+dat = fixnames(dat, "Pvalue", "P")
 
 # ID
 dat = fixnames(dat, "MarkerName", "MarkerID")
