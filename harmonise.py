@@ -56,7 +56,6 @@ def guess_separator(filepath):
 
   return guessed_separator if separator_counts[guessed_separator] > 0 else None
 
-
 def getbuild(ss, given_build):
   if given_build != "NA":
     if given_build == "37":

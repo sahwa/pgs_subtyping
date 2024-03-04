@@ -22,7 +22,6 @@ dat = fixnames(dat, "A1", "EA")
 dat = fixnames(dat, "Allele1", "EA")
 dat = fixnames(dat, "EFFECT_ALLELE", "EA")
 dat = fixnames(dat, "effect_allele", "EA")
-dat = fixnames(dat, "Effect_A2", "EA")
 dat = fixnames(dat, "Tested_Allele", "EA")
 dat = fixnames(dat, "hm_effect_allele", "EA")
 
@@ -54,12 +53,19 @@ dat = fixnames(dat, "Fixed-effects_SE", "SE")
 dat = fixnames(dat, "Fixed-effects_beta", "BETA")
 dat = fixnames(dat, "EFFECT_SIZE", "BETA")
 dat = fixnames(dat, "Effect", "BETA")
+dat = fixnames(dat, "hm_beta", "BETA")
+dat = fixnames(dat, "beta", "BETA")
+dat = fixnames(dat, "Effect_A2", "BETA")
 
 # Pvalue
 dat = fixnames(dat, "pvalue", "P")
 dat = fixnames(dat, "pvalue_GC", "P")
 dat = fixnames(dat, "Pvalue", "P")
 dat = fixnames(dat, "p_value", "P")
+
+# Odds ratio 
+
+dat = fixnames(dat, "hm_odds_ratio", "OR")
 
 # ID
 dat = fixnames(dat, "MarkerName", "MarkerID")

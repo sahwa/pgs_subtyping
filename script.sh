@@ -11,6 +11,11 @@ line=$(sed -n ${SLURM_ARRAY_TASK_ID}'{p;q}' sumstats_files.txt)
 sumstats=$(echo $line | cut -f1 -d' ')
 build=$(echo $line | cut -f2 -d' ')
 
-#Rscript fixcolnames.R ${sumstats}
+ldscdir=/well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/ldsc
 
-python harmonise.py ${sumstats} ${build}
+#Rscript fixcolnames.R ${sumstats}
+#python harmonise.py ${sumstats} ${build}
+
+bname=$(echo ${sumstats} | cut -d'.' -f1) 
+cd /well/ckb/users/aey472/projects/pgs_subtype/data/sumstats/ldsc
+zgrep -vE 'I|D' ${ldscdir}/${bname}_ldsc.txt.gz | gzip -c > ${ldscdir}/${bname}.ACTG.txt.gz
